@@ -1,6 +1,6 @@
 def aufgabe2(a,b,c):
-    sum=0
-    temp=0
+    sum=0  #Da eine multiplikation eigentlich nur eine Summe ist von a die b mal wiederholt wird 
+    temp=0 #und c nur eine wiederholung vom vorherigen Ergebnis lässt sich das Ergebnis in Zwei Schleifen hier einfach erklären.
     while(b>0):
         sum=sum+a
         b=b-1
